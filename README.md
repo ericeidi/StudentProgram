@@ -1,4 +1,4 @@
-# Student
+# simple student insertition and read
 
 <hr>
 
