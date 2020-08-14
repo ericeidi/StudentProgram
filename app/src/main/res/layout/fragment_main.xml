@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Name"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <EditText
+        android:id="@+id/edtFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <TextView
+        android:id="@+id/txtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        android:text="Last Name"
+        android:layout_marginRight="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <TextView
+        android:id="@+id/txtMark"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Marks"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <EditText
+        android:id="@+id/edtMark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:id="@+id/txtCourse"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Course"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <Spinner
+        android:id="@+id/courseListView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"></Spinner>
+    <TextView
+        android:id="@+id/txtCredit"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Credit"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/radGroupCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal">
+
+
+
+        <RadioButton
+        android:id="@+id/rad1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+        <RadioButton
+            android:id="@+id/rad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2" />
+        <RadioButton
+            android:id="@+id/rad3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/rad4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+</LinearLayout>

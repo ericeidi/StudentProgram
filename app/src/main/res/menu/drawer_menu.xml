@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+    <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+        <item
+            android:id="@+id/next"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="View grades" />
+        <item
+            android:id="@+id/next2"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search" />
+    </menu>
+    </item>
+</menu>
